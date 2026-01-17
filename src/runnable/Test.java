@@ -12,7 +12,10 @@ import string1.*;
 
 public class Test {
     public static void main(String[] args) {
-        FirstTwo firstTwo = new FirstTwo();
-        System.out.println(firstTwo.firstTwo("X"));
+        FirstHalf firstHalf = new FirstHalf();
+        System.out.println(firstHalf.firstHalf("WooHoo"));
+
+        WithoutEnd withEnd = new WithoutEnd();
+        System.out.println(withEnd.withoutEnd("He"));
     }
 }
