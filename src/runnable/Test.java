@@ -9,10 +9,11 @@
 package runnable;
 import warmup1.*;
 import string1.*;
+import warmup2.AltPairs;
 
 public class Test {
     public static void main(String[] args) {
-        Left2 left2 = new Left2();
-        System.out.println(left2.left2("Hii"));
+        AltPairs altPairs = new AltPairs();
+        System.out.println(altPairs.altPairs("Chocolate"));
     }
 }
